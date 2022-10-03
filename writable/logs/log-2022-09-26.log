@@ -1,0 +1,242 @@
+CRITICAL - 2022-09-26 09:02:35 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('alumnos/editar')
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('alumnos/editar')
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 09:02:49 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('alumnos')
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('alumnos')
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 09:04:16 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 D:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('alumnos')
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('alumnos')
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 09:04:49 --> syntax error, unexpected '$valores' (T_VARIABLE)
+#0 D:\xampp\htdocs\codeigniter4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('alumnos')
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('alumnos')
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-26 09:14:47 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('alumnos/lista', Array, true)
+#2 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(23): view('alumnos/lista', Array)
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->index()
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-09-26 09:24:38 --> Too few arguments to function App\Controllers\Alumnos::actualizar(), 0 passed in D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-26 09:25:01 --> Too few arguments to function App\Controllers\Alumnos::editar(), 0 passed in D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->editar()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-26 09:32:22 --> Too few arguments to function App\Controllers\Alumnos::actualizar(), 0 passed in D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-09-26 09:34:26 --> Duplicate entry '0' for key 'DNI'
+CRITICAL - 2022-09-26 09:34:26 --> Duplicate entry '0' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:34:31 --> Duplicate entry '60427293' for key 'DNI'
+CRITICAL - 2022-09-26 09:34:31 --> Duplicate entry '60427293' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar('{$id}')
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:34:54 --> Duplicate entry '60427293' for key 'DNI'
+CRITICAL - 2022-09-26 09:34:54 --> Duplicate entry '60427293' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:35:40 --> Duplicate entry '60427293' for key 'DNI'
+CRITICAL - 2022-09-26 09:35:40 --> Duplicate entry '60427293' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:41:08 --> Duplicate entry '60427293' for key 'DNI'
+CRITICAL - 2022-09-26 09:41:08 --> Duplicate entry '60427293' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:41:56 --> Duplicate entry '60427294' for key 'DNI'
+CRITICAL - 2022-09-26 09:41:56 --> Duplicate entry '60427294' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(63): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:45:22 --> Duplicate entry '60427294' for key 'DNI'
+CRITICAL - 2022-09-26 09:45:22 --> Duplicate entry '60427294' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:50:51 --> Duplicate entry '60427295' for key 'DNI'
+CRITICAL - 2022-09-26 09:50:51 --> Duplicate entry '60427295' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:51:04 --> Duplicate entry '60427298' for key 'DNI'
+CRITICAL - 2022-09-26 09:51:04 --> Duplicate entry '60427298' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:54:06 --> Duplicate entry '60427298' for key 'DNI'
+CRITICAL - 2022-09-26 09:54:06 --> Duplicate entry '60427298' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:56:21 --> Duplicate entry '60427220' for key 'DNI'
+CRITICAL - 2022-09-26 09:56:21 --> Duplicate entry '60427220' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-26 09:58:06 --> Duplicate entry '60427220' for key 'DNI'
+CRITICAL - 2022-09-26 09:58:06 --> Duplicate entry '60427220' for key 'DNI'
+#0 D:\xampp\htdocs\codeigniter4\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `alumnos...', 0)
+#1 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `alumnos...')
+#2 D:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `alumnos...')
+#3 D:\xampp\htdocs\codeigniter4\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `alumnos...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\xampp\htdocs\codeigniter4\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 D:\xampp\htdocs\codeigniter4\system\Model.php(651): CodeIgniter\BaseModel->update(NULL, Array)
+#7 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Model->update(NULL, Array)
+#8 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#9 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#10 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-26 10:01:15 --> Undefined index: idalumno
+#0 D:\xampp\htdocs\codeigniter4\app\Controllers\Alumnos.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 62, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Alumnos->actualizar()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
