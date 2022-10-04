@@ -52,7 +52,7 @@
                     <i class="fa fa-address-card"></i>
                 </div>
                 </div> 
-                <input id="dni" name="dni" type="text" class="form-control" required>
+                <input id="dni" name="dni" type="text" minlength="8" maxlength="12" class="form-control" required>
             </div>
             </div>
         </div>
@@ -77,7 +77,7 @@
                     <i class="fa fa-phone-square"></i>
                 </div>
                 </div> 
-                <input id="celular" name="celular" type="text" placeholder="+51 000000000" class="form-control" required>
+                <input id="celular" name="celular" type="text" minlength="9" placeholder="+51 000000000" class="form-control" required>
             </div>
             </div>
         </div>

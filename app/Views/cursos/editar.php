@@ -43,17 +43,10 @@
     </header>
     <div class="contenedor">
         <form method="POST" action="http://localhost/codeigniter4/public/cursos/actualizar">
-            <div class="form-group row">
+        <div class="form-group row">
             <label for="idcurso" class="col-4 col-form-label">ID Curso</label> 
             <div class="col-8">
-            <div class="input-group">
-                <div class="input-group-prepend">
-                <div class="input-group-text">
-                    <i class="fa fa-address-card"></i>
-                </div>
-                </div> 
-                <input id="idcurso" name="idcurso" type="text" class="form-control" value="<?= $datos["idcurso"] ?>" readonly> <!--disabled no envia valores-->
-            </div>
+            <input id="idcurso" name="idcurso" type="text" class="form-control" value="<?= $datos["idcurso"] ?>" readonly> <!--disabled no envia valores-->
             </div>
         </div>
         <div class="form-group row">
@@ -65,20 +58,34 @@
                     <i class="fa fa-address-card"></i>
                 </div>
                 </div> 
-                <input id="idalumno" name="idalumno" type="text" class="form-control" value="<?= $datos["idalumno"] ?>" required>
+                <input id="idalumno" name="idalumno" type="number" min="1" class="form-control" value="<?= $datos["idalumno"] ?>" required>
             </div>
             </div>
         </div>
         <div class="form-group row">
             <label for="idprofesor" class="col-4 col-form-label">ID Profesor</label> 
             <div class="col-8">
-            <input id="idprofesor" name="idprofesor" type="text" class="form-control" value="<?= $datos["idprofesor"] ?>" required>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <i class="fa fa-address-card"></i>
+                </div>
+                </div> 
+                <input id="idprofesor" name="idprofesor" type="number" min="1" class="form-control" value="<?= $datos["idprofesor"] ?>" required>
+            </div>
             </div>
         </div>
         <div class="form-group row">
             <label for="curso" class="col-4 col-form-label">Curso</label> 
             <div class="col-8">
-            <input id="curso" name="curso" type="text" class="form-control" value="<?= $datos["curso"] ?>" required>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <i class="fa fa-university"></i>
+                </div>
+                </div> 
+                <input id="curso" name="curso" type="text" class="form-control" value="<?= $datos["curso"] ?>" required>
+            </div>
             </div>
         </div>
         <div class="form-group row">
@@ -87,10 +94,10 @@
             <div class="input-group">
                 <div class="input-group-prepend">
                 <div class="input-group-text">
-                    <i class="fa fa-phone-square"></i>
+                    <i class="fa fa-book"></i>
                 </div>
                 </div> 
-                <input id="creditos" name="creditos" type="text" placeholder="+51 000000000" class="form-control" value="<?= $datos["creditos"] ?>" required>
+                <input id="creditos" name="creditos" type="number" min="1" class="form-control" value="<?= $datos["creditos"] ?>" required>
             </div>
             </div>
         </div>
@@ -100,10 +107,10 @@
             <div class="input-group">
                 <div class="input-group-prepend">
                 <div class="input-group-text">
-                    <i class="fa fa-at"></i>
+                    <i class="fa fa-certificate"></i>
                 </div>
                 </div> 
-                <input id="notafinal" name="notafinal" type="notafinal" placeholder="ejemplo@gmail.com" class="form-control" value="<?= $datos["notafinal"] ?>" required>
+                <input id="notafinal" name="notafinal" type="number" min="0" max="20" class="form-control" value="<?= $datos["notafinal"] ?>" required>
             </div>
             </div>
         </div> 

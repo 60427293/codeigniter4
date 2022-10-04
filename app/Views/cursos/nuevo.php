@@ -52,20 +52,34 @@
                     <i class="fa fa-address-card"></i>
                 </div>
                 </div> 
-                <input id="idalumno" name="idalumno" type="text" class="form-control" required>
+                <input id="idalumno" name="idalumno" type="number" min="1" class="form-control" required>
             </div>
             </div>
         </div>
         <div class="form-group row">
             <label for="idprofesor" class="col-4 col-form-label">ID Profesor</label> 
             <div class="col-8">
-            <input id="idprofesor" name="idprofesor" type="text" class="form-control" required>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <i class="fa fa-address-card"></i>
+                </div>
+                </div> 
+                <input id="idprofesor" name="idprofesor" type="number" min="1" class="form-control" required>
+            </div>
             </div>
         </div>
         <div class="form-group row">
             <label for="curso" class="col-4 col-form-label">Curso</label> 
             <div class="col-8">
-            <input id="curso" name="curso" type="text" class="form-control" required>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <i class="fa fa-university"></i>
+                </div>
+                </div> 
+                <input id="curso" name="curso" type="text" class="form-control" required>
+            </div>
             </div>
         </div>
         <div class="form-group row">
@@ -74,10 +88,10 @@
             <div class="input-group">
                 <div class="input-group-prepend">
                 <div class="input-group-text">
-                    <i class="fa fa-phone-square"></i>
+                    <i class="fa fa-book"></i>
                 </div>
                 </div> 
-                <input id="creditos" name="creditos" type="text" placeholder="+51 000000000" class="form-control" required>
+                <input id="creditos" name="creditos" type="number" min="1" class="form-control" required>
             </div>
             </div>
         </div>
@@ -87,10 +101,10 @@
             <div class="input-group">
                 <div class="input-group-prepend">
                 <div class="input-group-text">
-                    <i class="fa fa-at"></i>
+                    <i class="fa fa-certificate"></i>
                 </div>
                 </div> 
-                <input id="notafinal" name="notafinal" type="text" placeholder="ejemplo@gmail.com" class="form-control" required>
+                <input id="notafinal" name="notafinal" type="number" min="0" max="20" placeholder="00" class="form-control" required>
             </div>
             </div>
         </div> 
